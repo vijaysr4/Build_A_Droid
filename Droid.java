@@ -5,7 +5,7 @@ public class Droid {
   int batteryLevel;
   //constructor method
   public Droid(String droidname) {
-	name = droidname;
+    name = droidname;
     batteryLevel = 100;
   }
   //string method
@@ -14,7 +14,7 @@ public class Droid {
   }
   //task method
   public void performTask(String task) {
-	System.out.println(name + " is performing task: " + task);
+    System.out.println(name + " is performing task: " + task);
     batteryLevel = batteryLevel - 10;
   }
   //energy report method
